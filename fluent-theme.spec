@@ -2,7 +2,7 @@
 
 Name:           fluent-theme
 Version:        031021
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Fluent is a Fluent design theme for GNOME/GTK based desktop environments.
 
 License:        GPLv3
@@ -37,5 +37,8 @@ mkdir -p %{buildroot}%{_datadir}/themes
 %{_datadir}/themes/Fluent*/
 
 %changelog
+* Tue Feb 22 2022 Ultramarine Release Tracking Service - 031021-2
+- Mass rebuild for release um36
+
 * Sat Nov 13 2021 korewaChino <cappy@cappuchino.xyz>
 - initial release
